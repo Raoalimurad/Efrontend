@@ -1,0 +1,397 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header{
+  color: black;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+  padding: 15px;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul{
+  display: flex;
+  gap: 10px;
+  
+  font-size: 18px;
+}
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* footer css */
+.footer{
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0.692);
+  padding: 10px;
+  text-align: center;
+margin-top: 20px;
+
+
+}
+
+
+
+/* page not found css */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* registration page */
+.main1{
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  width: 100%;
+  height: 100vh;
+  margin-top: 65px;
+  padding-top: 90px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+.register{
+  text-align: center;
+  background-color: white;
+  width: 350px;
+  margin: 0px auto;
+  padding: 15px;
+  border-radius: 6px;
+
+
+}
+.inputs input{
+  margin-top: 15px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+}
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+.inputs button{
+  width: 140px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: cyan;
+  border-radius: 6px;
+}
+
+/*  */
+
+.spinner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.spinner-icon {
+  font-size: 50px; /* Adjust the size of the spinner */
+  animation: spin 1s linear infinite; /* Add spinning animation */
+  margin-right: 3px;
+ ;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.forgetPass{
+  margin-top: 15px;
+  cursor: pointer;
+
+  
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin: 0 6px;
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+/* admin panel */
+
+.dashborad,.users{
+  margin-top: 120px;
+}
+.items{
+  width: 230px;
+  text-align: center;
+  margin-bottom: 9px;
+
+  margin-top: 5px;
+}
+
+/* create category */
+.category{
+  margin-top: 33px;
+}
+.form{
+  margin-top: 20px;
+}
+
+
+/* product link */
+.product-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/* card details */
+.CardDetails{
+  width: 780px;
+  margin: 140px auto;
+  font-family: sans-serif;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+  align-items: center;
+  padding: 14px;
+
+}
+.btn1{
+  background-color: red;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.delete{
+  font-size: 20px;
+}
+.body{
+ min-height:230px;
+background-color: rgba(250, 235, 215, 0.288);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+ 
+.empty .Cart{
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.678);
+    
+}
+.empty h3{
+  font-family: sans-serif;
+  color: rgba(128, 128, 128, 0.678);
+ 
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+ margin-top: -20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+}
+
+.styled-table thead tr {
+  background-color: rgba(245, 222, 179, 0.123);
+  color:black;
+  text-align: left;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control .btn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  background-color: rgba(135, 207, 235, 0.411);
+  color: black;
+  cursor: pointer;
+}
+
+.quantity-control input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 5px;
+}
+.btn1{
+  background-color: red;
+  width: 90px;
+  padding: 4px;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.styled-table tfoot tr {
+  font-weight: bold;
+}
+
+.styled-table tfoot td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+.navlink{
+  text-decoration: none;
+  color: white;
+}
+.imgset{
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+  
+}
+
+
+/* admin dashboard */
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.adminPanel{
+  width: 250px;
+}
+
+.userDetails {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  border-collapse: collapse;
+
+}
+
+.user-info {
+  display: table;
+  width: 100%;
+}
+
+.user-row {
+  display: table-row;
+}
+
+.user-label, .user-data {
+  display: table-cell;
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.user-label {
+  font-weight: bold;
+  background-color: #f2f2f2;
+  width: 30%;
+}
+
+.user-data {
+  width: 70%;
+}
